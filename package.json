@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/index.js",
     "watch": "nodemon --exec \"node server/index.js\"",
-    "swagger-autogen": "node swagger.js",
+    "swagger-autogen": "node ./swagger.js",
     "test": "jest"
   },
   "author": "Mauricio Silvestre",

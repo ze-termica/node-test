@@ -4,7 +4,7 @@
     "title": "Mauricio's Cognizant test",
     "description": "Node test for Vivo project"
   },
-  "host": "localhost:3000",
+  "host": "192.168.50.4:3000",
   "basePath": "/",
   "tags": [],
   "schemes": [
@@ -14,7 +14,7 @@
   "consumes": [],
   "produces": [],
   "paths": {
-    "/company": {
+    "/bitmap": {
       "get": {
         "tags": [],
         "description": "",
@@ -22,8 +22,8 @@
         "responses": {}
       }
     },
-    "/site": {
-      "get": {
+    "/heroes": {
+      "post": {
         "tags": [],
         "description": "",
         "parameters": [],

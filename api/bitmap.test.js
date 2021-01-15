@@ -1,6 +1,8 @@
 const bitmap = require('./bitmap.js');
 
-test('adds 1 + 2 to equal 3', () => {
+// FIXME: Test
+test('Validate input vector', () => {
     console.log(bitmap);
-    expect(bitmap().sum(1, 2)).toBe(3);
+    expect(bitmap().getBitmapElementNumbers([1,2,4,6,15])).toBe(true);
+    expect(bitmap().getBitmapElementNumbers([1,2,24,6,15])).toBe(false);
 });

@@ -5,12 +5,12 @@ const doc = {
         title: "Mauricio's Cognizant test",
         description: "Node test for Vivo project"
     },
-    host: "localhost:3000",
+    host: "192.168.50.4:3000",
     schemes: ['http']
 }
 
 const outputFile = './swagger/swagger_output.json'
-const endpointsFiles = ['./routes/company.js', './routes/site.js']
+const endpointsFiles = ['./routes/bitmap.js', './routes/hero.js']
 
 swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
     require('./server/index.js')
